@@ -9,3 +9,7 @@ body {
   background-color: #f0f0f0;
   box-sizing: border-box;
 }
+
+html {
+  box-sizing: border-box;
+}

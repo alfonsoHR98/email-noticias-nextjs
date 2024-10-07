@@ -20,4 +20,17 @@ type Source = {
   name: string;
 };
 
-export type { Notice, Article, Source };
+type DataSend = {
+  category: string;
+  country: string;
+  from: string;
+  language: string;
+  q: string;
+  selected: boolean;
+  sortBy: string;
+  to: string;
+};
+
+export type { Notice, Article, Source, DataSend };
+
+
