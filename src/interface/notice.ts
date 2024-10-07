@@ -19,3 +19,5 @@ type Source = {
   id: string | null;
   name: string;
 };
+
+export type { Notice, Article, Source };
