@@ -2,7 +2,7 @@ type Notice = {
   status: string;
   totalResults: number;
   articles: Article[];
-}
+};
 
 type Article = {
   source: Source;
@@ -10,7 +10,7 @@ type Article = {
   title: string;
   description: string | null;
   url: string;
-  urlToImage: string | null;
+  urlToImage: string | undefined;
   publishedAt: string;
   content: string | null;
 };
@@ -32,5 +32,3 @@ type DataSend = {
 };
 
 export type { Notice, Article, Source, DataSend };
-
-
