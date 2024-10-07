@@ -12,7 +12,7 @@ function NewCard({ elemento }: NewCardProps) {
       <img
         src={elemento.urlToImage}
         alt={elemento.title}
-        className="w-[350px] h-[200px] object-cover "
+        className="w-[350px] object-cover "
       />
       <div className="flex-1 flex flex-col gap-2 p-2 justify-between">
         <div>
